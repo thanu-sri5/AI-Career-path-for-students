@@ -1,0 +1,23 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Abstract futuristic tech background with purple and blue gradients",
+      "imageUrl": "https://picsum.photos/seed/hero/1200/800",
+      "imageHint": "tech future"
+    },
+    {
+      "id": "feature-ai",
+      "description": "AI circuit brain visualization",
+      "imageUrl": "https://picsum.photos/seed/ai/600/400",
+      "imageHint": "artificial intelligence"
+    },
+    {
+      "id": "testimonial-user-1",
+      "description": "Professional person portrait",
+      "imageUrl": "https://picsum.photos/seed/user1/200/200",
+      "imageHint": "professional person"
+    }
+  ]
+}
