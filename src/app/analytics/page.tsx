@@ -29,7 +29,8 @@ import {
   Target, 
   Download, 
   Filter,
-  ArrowUpRight
+  ArrowUpRight,
+  Award
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
