@@ -1,7 +1,13 @@
 import type {NextConfig} from 'next';
 
+const isProd = process.env.NODE_ENV === 'production';
+const repoName = 'CareerPilot-AI-Final-Project';
+
 const nextConfig: NextConfig = {
   /* config options here */
+  output: 'export',
+  basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : '',
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -9,6 +15,7 @@ const nextConfig: NextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',

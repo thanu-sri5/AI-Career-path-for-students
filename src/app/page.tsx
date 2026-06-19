@@ -13,7 +13,8 @@ import {
   ChevronRight, 
   Star,
   Users,
-  Award
+  Award,
+  Github
 } from "lucide-react";
 
 const stats = [
@@ -182,17 +183,16 @@ export default function Home() {
               </ul>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Company</h4>
+              <h4 className="font-bold mb-4">Connect</h4>
               <ul className="space-y-2 text-muted-foreground text-sm">
                 <li><Link href="/contact">Contact Us</Link></li>
-                <li><Link href="#">About AI</Link></li>
-                <li><Link href="#">Privacy Policy</Link></li>
-                <li><Link href="#">Terms of Service</Link></li>
+                <li><a href="https://github.com/thanu-sri5" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors"><Github className="w-4 h-4" /> GitHub Profile</a></li>
+                <li><a href="https://github.com/thanu-sri5/CareerPilot-AI-Final-Project" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Source Code</a></li>
               </ul>
             </div>
           </div>
           <div className="text-center text-muted-foreground text-xs pt-8 border-t border-white/5">
-            © 2024 CareerPilot AI. Built for the future of work.
+            © 2025 CareerPilot AI by <a href="https://github.com/thanu-sri5" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">thanu-sri5</a>. Built for the future of work.
           </div>
         </div>
       </footer>

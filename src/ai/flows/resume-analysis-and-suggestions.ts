@@ -1,4 +1,5 @@
-'use server';
+// Note: This flow requires a Genkit backend server to function.
+// It will not work on static hosting (e.g., GitHub Pages).
 /**
  * @fileOverview A Genkit flow for analyzing resumes for ATS compatibility and providing improvement suggestions.
  *
