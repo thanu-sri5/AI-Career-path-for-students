@@ -13,11 +13,11 @@ const nextConfig: NextConfig = {
   assetPrefix: isProd ? `/${repoName}/` : '',
 
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: false,
   },
 
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
 
   images: {
